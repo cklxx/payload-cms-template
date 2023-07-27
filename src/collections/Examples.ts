@@ -2,15 +2,19 @@ import { CollectionConfig } from 'payload/types';
 
 // Example Collection - For reference only, this must be added to payload.config.ts to be used.
 const Examples: CollectionConfig = {
-  slug: 'examples',
+  slug: 'story',
   admin: {
-    useAsTitle: 'someField'
+    useAsTitle: 'story'
   },
   fields: [
     {
-      name: 'someField',
+      name: 'title',
       type: 'text',
-    }
+    },
+    {
+      name: 'content',
+      type: 'text',
+    },
   ]
 }
 
