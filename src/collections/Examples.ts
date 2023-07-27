@@ -6,6 +6,12 @@ const Examples: CollectionConfig = {
   admin: {
     useAsTitle: 'story'
   },
+  access: {
+    // Payload's access control functions apply to files also, meaning you can permit or deny file downloads easily
+    read: () => true,
+    create: () => true,
+    update: () => true
+  },
   fields: [
     {
       name: 'title',
