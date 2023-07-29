@@ -21,6 +21,18 @@ const Examples: CollectionConfig = {
       name: 'content',
       type: 'text',
     },
+    {
+      name: 'source',
+      type: 'text',
+    },
+    {
+      name: 'classify_prompt',
+      type: 'text',
+    },
+    {
+      name: 'trans_prompt',
+      type: 'text',
+    },
   ]
 }
 
