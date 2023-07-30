@@ -57,6 +57,12 @@ const Media: CollectionConfig = {
       localized: true,
       type: 'text',
       required: true,
+    },
+    {
+      name: 'json',
+      label: 'Alt Text',
+      localized: true,
+      type: 'text'
     }
   ]
 };
