@@ -60,8 +60,6 @@ const Media: CollectionConfig = {
     },
     {
       name: 'json',
-      label: 'Alt Text',
-      localized: true,
       type: 'text'
     }
   ]
