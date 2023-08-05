@@ -14,7 +14,7 @@ const Examples: CollectionConfig = {
   },
   fields: [
     {
-      name: 'id',
+      name: 'text_id',
       type: 'text',
     },
     {
